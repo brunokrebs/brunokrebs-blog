@@ -9,9 +9,9 @@ author:
 
 ## Introduction
 
-Big O notation is a tool used by software engineers to check how efficient an algorithm is. If you haven't heard or studied about the Big O notation before, the name might be a bit scaring. However, the concept itself is simple enough even for the ones who are just getting started on the area.
+Big O notation is a tool used by software engineers to check how efficient an algorithm is. If you haven't heard or studied about the Big O notation before, the name might sound a bit scaring. However, the concept itself is simple enough even for everyone to understand. Even those who are just getting started on the field.
 
-Yes, there will be times (algorithms) that are a bit hard to analyze, but most of the time, you will be able to identify an algorithms complexity very fast. Read on and learn how the Big O notation works. I hope you enjoy the content.
+Yes, there will be times (algorithms) that will be not-that-easy to analyze, but most of the time, you will be able to identify an algorithms complexity very fast. Read on and learn how the Big O notation works. I hope you enjoy the content.
 
 ## What is Big O Notation?
 
@@ -27,20 +27,29 @@ If you understand the Big O notation, you will be able to predict and talk about
 
 ## Understanding Different Big O Notations
 
-- Discuss and provide examples of various time complexities such as:
-- O(1) - Constant Time
+
+### O(1) - Constant Time
+
+<BigO timeComplexitiesShown={['bigONotation1']} />
+
+### O(n) - Linear Time
+
+<BigO timeComplexitiesShown={['bigONotation1', 'bigONotationN']} />
 
 ### O(log n) - Logarithmic Time
 
-This SVG adds X axis numbers 1-4 representing the input size, and Y axis numbers 1-4 representing the time taken. Note that these numbers are illustrative and do not directly correspond to the curves in the graph. The numbers would need to be adjusted to accurately represent the complexities.
+<BigO timeComplexitiesShown={['bigONotation1', 'bigONotationLogN', 'bigONotationN']} />
 
-For precise, accurate visualizations, I recommend using a graphing library or tool, which can handle the nuances of data representation. D3.js is a popular choice in JavaScript for generating SVG graphs from data. There are also online tools that can generate SVG graphs.
+### O(n log n) - Linearithmic Time
 
-- O(n) - Linear Time
-- O(n log n) - Linearithmic Time
-- O(n^2) - Quadratic Time
-- O(2^n) - Exponential Time
-- O(n!) - Factorial Time
+<BigO timeComplexitiesShown={['bigONotation1', 'bigONotationN', 'bigONotationNLogN']} />
+
+### O(n^2) - Quadratic Time
+
+### O(2^n) - Exponential Time
+
+### O(n!) - Factorial Time
+
 
 ## Examples in Code
 

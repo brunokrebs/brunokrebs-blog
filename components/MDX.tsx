@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Note } from "./Note";
+import { BigO } from "./BigO";
 export const components = {
   Image,
-  Note,
+  BigO,
 };
